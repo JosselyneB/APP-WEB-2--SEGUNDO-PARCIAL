@@ -1,0 +1,10 @@
+// src/graphql/equipo.graphql
+type Equipo {
+  id: ID!
+  nombre: String!
+  ciudad: String!
+}
+enum Estado {
+  ACTIVO
+  INACTIVO
+}

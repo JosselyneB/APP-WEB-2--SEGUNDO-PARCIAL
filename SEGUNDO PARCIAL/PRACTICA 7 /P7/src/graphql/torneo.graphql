@@ -1,0 +1,11 @@
+// src/graphql/torneo.graphql
+type Torneo {
+  id: ID!
+  nombre: String!
+  fechaInicio: Date!
+  fechaFin: Date!
+}
+enum Estado {
+  ACTIVO
+  INACTIVO
+}

@@ -1,0 +1,13 @@
+// src/graphql/partido.graphql
+type Partido {
+  id: ID!
+  equipoLocal: Equipo!
+  equipoVisitante: Equipo!
+  torneo: Torneo!
+  fecha: Date!
+  resultado: String!
+}
+enum Estado {
+  ACTIVO
+  INACTIVO
+}
